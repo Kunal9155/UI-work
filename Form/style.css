@@ -1,0 +1,41 @@
+.contain{
+border: 13px solid green;
+margin: 28px;
+box-shadow:8px 8px 14px red;
+}
+#cpass{
+    position: relative;
+    right: 30px !important;
+}
+body {
+    font-weight: bolder;
+    /* background-color: #145821; */
+    background-color: #9be1a8;
+    padding: 10px 50px;
+}
+
+.formdesign {
+    font-size: 20px;
+
+}
+
+.formdesign input {
+    width: 50%;
+    padding: 12px 20px;
+    border: 2px dashed blue;
+    margin: 14px;
+    border-radius: 4px;
+    font-size: 15px;
+}
+
+.formerror {
+    color: red;
+}
+
+.but {
+    border-radius: 9px;
+    width: 100px;
+    height: 50px;
+    font-size: 25px;
+    margin: 22px 20px;
+}

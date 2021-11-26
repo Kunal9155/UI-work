@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>calculator</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>	
+<script src="form.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="js"> PRODUCT DETAILS FORM </h1>
+    <form aciton ="/myaction.php" name="myForm" onsubmit="return validateForm()" method="post">
+        <div class="formdesign" id="name" >
+            Name: <input type="text" name="fname" required placeholder="ENTER YOUR NAME"><b><span class="formerror"> </span></b>
+        </div>
+        <div class="formdesign" id="email">
+            Email: <input type="email" name="femail" required placeholder="ENTER YOUR EMAIL"><b><span class="formerror"> </span></b>
+        </div>
+
+        <div class="formdesign" id="phone">
+            Phone: <input type="phone" name="fphone" required placeholder="ENTER YOUR NUMBER"><b><span class="formerror"></span></b>
+        </div>
+
+        <div class="formdesign" id="pass">
+            Password: <input type="password" name="fpass" required placeholder="PASS**"><b><span class="formerror"</span></b>
+        </div>
+
+        <div class="formdesign" id="cpass">
+            Confirm Password: <input type="password" name="fcpass" required placeholder="*CAUTION*"><b><span class="formerror"></span></b>
+        </div>
+        
+        <hr width="90%"><br><br>
+         <label for="Product" class="Product">Product:</label>
+        <select name="Product" id="product" class="Product-">
+          <option value="v">MONITOR</option>
+          <option value="s">MOUSE</option>
+          <option value="o">SPEAKERS</option>
+          <option value="a">HARDISK</option>
+        </select><br><br>
+        <p class="Product">Used for:</p>
+        <input type="radio" id="Home" name="use" value="Home">
+        <label for="Home" class="Product">Home</label><br>
+        <input type="radio" id="business" name="use" value="business">
+        <label for="female" class="Product">Business</label><br>
+        <input type="radio" id="government" name="use" value="government">
+        <label for="other"class="Product">Government</label><br>
+        <input type="radio" id="Education" name="use" value="Education">
+        <label for="Education" class="Product">Education</label><br>
+        <input type="radio" id="Other" name="use" value="Other">
+        <label for="Other" class="Product">Other</label><br><br>
+
+        <label for="" class="Product">System (Check All that apply):</label><br>
+        <input type="checkbox" id="Windows" name="Windows" value="Windows">
+        <label for="Windows" class="Product"> Windows</label><br>
+        <input type="checkbox" id="Macintosh" name="Macintosh" value="Macintosh">
+        <label for="Macintosh" class="Product"> Macintosh</label><br>
+        <input type="checkbox" id="uinux" name="uinux" value="uinux">
+        <label for="uinux" class="Product"
+        > uinux</label><br>
+<input type="checkbox" id="other" name="others" value="others">
+        <label for="others" class="Product"> others</label><br>
+        <hr width="90%"><br><br>
+        <label for="" class="Product"  >Comments</label><br>
+        <textarea rows="4" cols="50" name="comment" form="usrform" placeholder=" PUT UR SUGGESTIONS HERE !!!!"></textarea><br>
+           <input class="but" type="submit" value="Submit">
+            <input type="reset" value="Cancel">
+    </form>
+</body>
+</html>
+  </body>
+</html>
